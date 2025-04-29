@@ -96,10 +96,19 @@ function App() {
       <section id="home" className="hero">
         <div className="hero-content animate-on-scroll">
           <h1 className="animate-text">Hi, I'm Malak Ibrahim</h1>
-          <p className="animate-text delay-1">Mid-Level Quality Assurance Engineer</p>
+          <p className="animate-text delay-1">Software Testing Engineer</p>
+          <div className="hero-headline animate-text delay-1">
+            <span>Mid-Level QA Engineer</span>
+            <span className="separator">|</span>
+            <span>Manual & Automation Testing</span>
+            <span className="separator">|</span>
+            <span>MBA in AI</span>
+            <span className="separator">|</span>
+            <span>Cypress Automation</span>
+          </div>
           <div className="hero-details animate-text delay-2">
             <p>📍 Ramallah, Palestine</p>
-            <p>💼 Mid-Level QA Engineer</p>
+            <p>💼 Software Testing Engineer</p>
             <p>🌐 Software Testing Professional</p>
           </div>
           <button className="cta-button animate-text delay-2">View My Work</button>
@@ -111,88 +120,196 @@ function App() {
         <div className="about-content animate-on-scroll">
           <h2>About Me</h2>
           <div className="personal-info">
-            <p>A dedicated QA Engineer with over 3 years of practical experience in manual and automation testing, specializing in ensuring product quality, optimizing testing processes, and delivering exceptional user experiences.</p>
+            <p>A dedicated Software Testing Engineer with over 3 years of practical experience in manual and automation testing, specializing in ensuring product quality, optimizing testing processes, and delivering exceptional user experiences.</p>
           </div>
           
-          <div className="experience-section">
-            <h3>Professional Experience</h3>
-            <div className="experience-card">
-              <h4>Mid-Level Quality Assurance Engineer</h4>
-              <p className="company">Coretava Company - San Francisco, California, USA</p>
-              <p className="duration">April 2023 – Present</p>
-              <ul className="experience-details">
-                <li>Designing and implementing AI-driven product testing strategies</li>
-                <li>Developing comprehensive test suites using Cypress</li>
-                <li>Conducting API testing using Postman</li>
-                <li>Performing performance testing and optimization</li>
-              </ul>
+          <div className="profile-summary">
+            <div className="summary-section">
+              <h3>Professional Summary</h3>
+              <p>As a Quality Assurance Engineer skilled in both manual and automation testing, I ensure high-quality software delivery through thorough planning, execution, and documentation. I create detailed test plans and cases, conduct regression and sanity testing, and handle ad-hoc hotfix checks. I document new features, perform performance and usability testing, and develop automation frameworks using Cypress integrated into CI/CD pipelines. I also validate backend services through comprehensive API testing.</p>
             </div>
 
-            <div className="experience-card">
-              <h4>Quality Assurance Engineer</h4>
-              <p className="company">Experts Turnkey Solutions - Ramallah, Palestine</p>
-              <p className="duration">October 2021 – April 2023</p>
-              <ul className="experience-details">
-                <li>Led testing efforts for multiple enterprise applications</li>
-                <li>Implemented automated testing solutions</li>
-                <li>Managed test documentation and reporting</li>
-                <li>Conducted regression testing and defect tracking</li>
-              </ul>
+            <div className="summary-section">
+              <h3>Academic Pursuit</h3>
+              <p>Currently pursuing a Master's in Public Administration with a focus on Artificial Intelligence, I am expanding my expertise in data-driven decision-making, AI strategy, and business analysis. This interdisciplinary background strengthens my ability to align QA processes with organizational goals, improve system efficiency, and contribute to strategic planning in tech-driven environments.</p>
+            </div>
+
+            <div className="summary-section">
+              <h3>Career Focus</h3>
+              <p>I am eager to leverage my expertise in quality assurance, manual testing, and automation using Cypress to contribute to innovative projects and drive excellence in software development processes.</p>
+            </div>
+          </div>
+          
+          <div className="section-container">
+            <div className="section-header">
+              <h3>Professional Experience</h3>
+              <div className="section-divider"></div>
+            </div>
+            
+            <div className="experience-section">
+              <div className="experience-card">
+                <div className="experience-header">
+                  <h4>Mid-Level Software Testing Engineer</h4>
+                  <span className="experience-date">April 2023 – Present</span>
+                </div>
+                <p className="company">Coretava Company - San Francisco, California, USA</p>
+                <ul className="experience-details">
+                  <li>Designing and implementing AI-driven product testing strategies</li>
+                  <li>Developing comprehensive test suites using Cypress</li>
+                  <li>Conducting API testing using Postman</li>
+                  <li>Performing performance testing and optimization</li>
+                </ul>
+              </div>
+
+              <div className="experience-card">
+                <div className="experience-header">
+                  <h4>Software Testing Engineer</h4>
+                  <span className="experience-date">April 2023 – Present</span>
+                </div>
+                <p className="company">Coretava Company - San Francisco, California, USA</p>
+                <ul className="experience-details">
+                  <li>✅ Test Planning & Case Creation: Designed detailed test plans/cases covering all functional and non-functional requirements</li>
+                  <li>🔄 Regression Testing: Regularly validated existing features after code changes to ensure stability</li>
+                  <li>🔍 Functional Testing: Validated new features against business requirements to ensure correct behavior and flow</li>
+                  <li>⚡ Sanity & Hotfix Testing: Performed quick checks on new builds and urgent ad-hoc testing for hotfixes</li>
+                  <li>📝 Feature Documentation: Documented new features with specs, scenarios, and expected outcomes for team alignment</li>
+                  <li>📊 Performance Testing: Executed tests to evaluate responsiveness, scalability, and system load handling</li>
+                  <li>👥 Usability Testing: Evaluated user-friendliness and suggested UX/UI improvements</li>
+                  <li>🤖 Automation Testing (Cypress): Built and maintained Cypress-based test framework; integrated with CI/CD pipelines for continuous testing</li>
+                  <li>🔌 API Testing: Created and ran API tests to ensure backend services are functional, secure, and reliable</li>
+                </ul>
+              </div>
+
+              <div className="experience-card">
+                <div className="experience-header">
+                  <h4>Software Testing Engineer</h4>
+                  <span className="experience-date">January 2022 – April 2023</span>
+                </div>
+                <p className="company">Experts Turnkey Solutions - Ramallah, Palestine</p>
+                <ul className="experience-details">
+                  <li>✅ Ensured quality and reliability of automated solutions for core business processes</li>
+                  <li>🤝 Collaborated closely with stakeholders to meet requirements and boost effectiveness</li>
+                  <li>📈 Contributed to productivity improvements through systematic testing approaches</li>
+                  <li>🏥 Tested web-based Electronic Health Insurance System (HIS)</li>
+                  <li>🔒 Ensured seamless provider and patient data management</li>
+                  <li>📋 Developed and executed comprehensive test plans</li>
+                  <li>🔍 Performed thorough validation of system functionality</li>
+                  <li>📊 Monitored and reported on system performance metrics</li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div className="education-section">
-            <h3>Education</h3>
-            <div className="education-card">
-              <h4>MBA in Artificial Intelligence</h4>
-              <p className="institution">Talal Abu-Ghazaleh Global Digital University, Jordan [Online]</p>
-              <p className="duration">2024 - Present</p>
+          <div className="section-container">
+            <div className="section-header">
+              <h3>Education</h3>
+              <div className="section-divider"></div>
             </div>
-            <div className="education-card">
-              <h4>Computer System Engineering</h4>
-              <p className="institution">Birzeit University - Birzeit, Palestine</p>
-              <p className="duration">2016 - 2021</p>
+            
+            <div className="education-section">
+              <div className="education-card">
+                <div className="education-header">
+                  <h4>MBA in Artificial Intelligence</h4>
+                  <span className="education-date">2024 - Present</span>
+                </div>
+                <p className="institution">Talal Abu-Ghazaleh Global Digital University, Jordan [Online]</p>
+              </div>
+              
+              <div className="education-card">
+                <div className="education-header">
+                  <h4>Computer System Engineering</h4>
+                  <span className="education-date">2016 - 2021</span>
+                </div>
+                <p className="institution">Birzeit University - Birzeit, Palestine</p>
+              </div>
             </div>
           </div>
 
-          <div className="skills-grid">
-            <div className="skill-card">
-              <div className="skill-icon">🔍</div>
-              <h3>Testing Tools</h3>
-              <ul className="skill-list">
-                <li>Cypress</li>
-                <li>Postman</li>
-                <li>JMeter</li>
-                <li>Appium-Studio</li>
-              </ul>
-              <div className="coverage-bar">
-                <div className="coverage-fill" style={{ width: '90%' }}></div>
-              </div>
+          <div className="section-container">
+            <div className="section-header">
+              <h3>Skills & Expertise</h3>
+              <div className="section-divider"></div>
             </div>
-            <div className="skill-card">
-              <div className="skill-icon">💻</div>
-              <h3>Development</h3>
-              <ul className="skill-list">
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>HTML/CSS</li>
-                <li>Java</li>
-              </ul>
-              <div className="coverage-bar">
-                <div className="coverage-fill" style={{ width: '85%' }}></div>
+            
+            <div className="skills-grid">
+              <div className="skill-card">
+                <div className="skill-icon">🔍</div>
+                <h3>Testing Tools</h3>
+                <ul className="skill-list">
+                  <li>Cypress</li>
+                  <li>Postman</li>
+                  <li>JMeter</li>
+                  <li>Appium-Studio</li>
+                  <li>Selenium</li>
+                  <li>TestNG</li>
+                </ul>
+                <div className="coverage-bar">
+                  <div className="coverage-fill" style={{ width: '90%' }}></div>
+                </div>
               </div>
-            </div>
-            <div className="skill-card">
-              <div className="skill-icon">🛠️</div>
-              <h3>Tools & Platforms</h3>
-              <ul className="skill-list">
-                <li>Git/GitHub</li>
-                <li>Jenkins</li>
-                <li>AWS</li>
-                <li>Docker/K8S</li>
-              </ul>
-              <div className="coverage-bar">
-                <div className="coverage-fill" style={{ width: '80%' }}></div>
+              
+              <div className="skill-card">
+                <div className="skill-icon">💻</div>
+                <h3>Development</h3>
+                <ul className="skill-list">
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>HTML/CSS</li>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>SQL</li>
+                </ul>
+                <div className="coverage-bar">
+                  <div className="coverage-fill" style={{ width: '85%' }}></div>
+                </div>
+              </div>
+              
+              <div className="skill-card">
+                <div className="skill-icon">🛠️</div>
+                <h3>Tools & Platforms</h3>
+                <ul className="skill-list">
+                  <li>Git/GitHub</li>
+                  <li>Jenkins</li>
+                  <li>AWS</li>
+                  <li>Docker/K8S</li>
+                  <li>Jira</li>
+                  <li>Confluence</li>
+                </ul>
+                <div className="coverage-bar">
+                  <div className="coverage-fill" style={{ width: '80%' }}></div>
+                </div>
+              </div>
+
+              <div className="skill-card">
+                <div className="skill-icon">📊</div>
+                <h3>Testing & QA</h3>
+                <ul className="skill-list">
+                  <li>Manual Testing</li>
+                  <li>Automation Testing</li>
+                  <li>API Testing</li>
+                  <li>Performance Testing</li>
+                  <li>Mobile Testing</li>
+                  <li>Security Testing</li>
+                </ul>
+                <div className="coverage-bar">
+                  <div className="coverage-fill" style={{ width: '95%' }}></div>
+                </div>
+              </div>
+
+              <div className="skill-card">
+                <div className="skill-icon">🤖</div>
+                <h3>AI & Analytics</h3>
+                <ul className="skill-list">
+                  <li>Machine Learning</li>
+                  <li>Data Analysis</li>
+                  <li>AI Testing</li>
+                  <li>Predictive Analytics</li>
+                  <li>Natural Language Processing</li>
+                  <li>Computer Vision</li>
+                </ul>
+                <div className="coverage-bar">
+                  <div className="coverage-fill" style={{ width: '75%' }}></div>
+                </div>
               </div>
             </div>
           </div>
@@ -251,44 +368,64 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="contact">
-        <h2 className="animate-on-scroll">Get in Touch</h2>
-        <div className="contact-info animate-on-scroll">
-          <p>📧 Email: Mlkibrahem6@gmail.com</p>
-          <p>📱 Phone: +970 595453052</p>
-          <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/malak-ibrahim-7342921a9/" target="_blank" rel="noopener noreferrer">Malak Ibrahim</a></p>
-        </div>
-        <div className="contact-form animate-on-scroll">
-          <form>
-            <div className="form-group">
-              <input type="text" placeholder="Your Name" required />
-              <span className="focus-border"></span>
-            </div>
-            <div className="form-group">
-              <input type="email" placeholder="Your Email" required />
-              <span className="focus-border"></span>
-            </div>
-            <div className="form-group">
-              <textarea placeholder="Your Message" required></textarea>
-              <span className="focus-border"></span>
-            </div>
-            <button type="submit" className="submit-button">
-              <span>Send Message</span>
-              <div className="button-border"></div>
-            </button>
-          </form>
-        </div>
-      </section>
+      <Contact />
 
       {/* Footer */}
-      <footer>
-        <div className="social-links">
-          <a href="https://www.linkedin.com/in/malak-ibrahim-7342921a9/" className="social-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="mailto:Mlkibrahem6@gmail.com" className="social-link">Email</a>
-        </div>
-        <p>&copy; 2024 Malak Ibrahim's QA Portfolio. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
+  );
+}
+
+function Contact() {
+  return (
+    <section id="contact" className="contact">
+      <div className="section-header">
+        <h2>Get in Touch</h2>
+        <div className="section-divider"></div>
+      </div>
+      <div className="contact-form">
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  );
+}
+
+function Footer() {
+  return (
+    <footer>
+      <div className="footer-content">
+        <div className="contact-info-footer">
+          <h3>Contact Information</h3>
+          <div className="contact-details">
+            <div className="contact-item">
+              <i className="fas fa-envelope"></i>
+              <a href="mailto:malak.ibrahim@coretava.com">malak.ibrahim@coretava.com</a>
+            </div>
+            <div className="contact-item">
+              <i className="fas fa-phone"></i>
+              <a href="tel:+201000000000">+20 100 000 0000</a>
+            </div>
+            <div className="contact-item">
+              <i className="fas fa-map-marker-alt"></i>
+              <span>Alexandria, Egypt</span>
+            </div>
+          </div>
+          <div className="social-links">
+            <a href="https://github.com/malak-ibrahim" className="social-link" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/malak-ibrahim" className="social-link" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   );
 }
 
